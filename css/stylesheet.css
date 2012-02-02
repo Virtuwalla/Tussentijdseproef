@@ -1,0 +1,129 @@
+header,section,article,aside,hgroup{display:block;}
+
+h1 {
+    display: none;
+    visibility: hidden;
+}
+
+h2 {
+    display: none;
+    visibility: hidden;
+}
+
+h3 {
+    display: none;
+    visibility: hidden;
+}
+
+p {
+    color: #a4e757;
+}
+
+ul li {
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+    padding: 12px;
+    font-size: 17px;
+    list-style: none;
+}
+
+header {
+    width: 925px;
+    height: 0px;
+}
+
+section {
+    width: 925px;
+    height: auto;
+}
+
+.product {
+    width: 160px;
+    height: 120px;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+#container {
+    width: 925px;
+    margin: 0 auto;
+}
+
+
+#header {
+    width: 925px;
+    height: 135px;
+}
+
+#headertop {
+    width: 925px;
+    height: 100px;
+    background-image: url("../images/afbeeldingen/01_Home_03.jpg");
+    float: left;
+    display: inline;
+}
+
+#headermenu {
+    width: 925px;
+    height: 35px;
+    background-color: #a4e757;
+    float: left;
+    display: inline;
+}
+
+#content {
+    width: 925px;
+    height: auto;
+    float: left;
+    display: inline;    
+}
+
+#contentleft {
+    width: 675px;
+    height: auto;
+    float: left;
+    display: inline; 
+    background-color: #efefef;
+}
+
+#contentimg {
+    width: 675px;
+    height: 240px;
+    float: left;
+    display: inline;
+    background-image: url("../images/afbeeldingen/01_Home_06.jpg");
+}
+
+#contentproducts {
+    width: 675px;
+    height: 300px;
+    float: left;
+    display: inline;  
+    background-color: #efefef;
+}
+
+#contentright {
+    width: 250px;
+    height: auto;
+    background-color: #fefefe;
+    float: left;
+    display: inline;
+}
+
+#contentlogin {
+    width: 250px;
+    height: 160px;
+    float: left;
+    display:inline;
+    background-image: url("../images/afbeeldingen/01_Home_07.jpg");
+}
+
+#footer {
+    width: 925px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}

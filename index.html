@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Springsale</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/stylesheet.css" rel="stylesheet" />
+        <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        document.createElement('header'); //maakt de header aan te gebruiken als
+        //bovenstaande code niet zou werken  dit is niet de meest correcte manier van werken, de code hierboven boveaan de code plaatsen is wel correct
+        document.createElement('footer');//maakt de footer aan, te gebruiken als bovenstaande code niet zou werken  ze moeten dan nog in de css geplaatst worden als een block element
+    </script>
+    </head>
+        <body>
+         <div id="container">
+            <header>
+                <h1>Header</h1>           
+                    <div id="header">
+                        <div id="headertop">
+                        </div>
+                        <nav>
+                        <h1>Menu</h1>
+                        <div id="headermenu">  
+                            <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">What's new</a></li>
+                            <li><a href="">Clothing</a></li>
+                            <li><a href="">Indoor</a></li>
+                            <li><a href="">Outdoor</a></li>
+                            <li><a href="">Sports</a></li>
+                            <li><a href="">Electronics</a></li>
+                            </ul>
+                        </div>
+                        </nav> 
+                    </div>        
+            </header>
+            <section>
+                <h1>Content</h1>
+                <div id="content">
+                    <article>
+                        <h2>Content-left</h2>
+                        <div id="contentleft">
+                       <section>
+                            <h3>Content-foto</h3>
+                            <div id="contentimg">
+                            </div>
+                        </section>
+                        <section>
+                            <h3>Content producten</h3>
+                            <div id="contentproducts">
+                            </div>
+                        </section>
+                        </div>
+                     </article>
+                    <article>
+                        <h2>Content-Right</h2>
+                        <div id="contentright">
+                        <section>
+                            <h3>Content login</h3>
+                            <div id="contentlogin">     
+                            </div>
+                        </section>    
+                        </div>
+                    </article>                  
+                </div>                                        
+            </section>
+             <section> 
+            <footer>
+                <h1>Footer</h1>
+                <div id="footer">Dit is de footer &copy;</div>
+            </footer>
+             </section>
+                 
+        </div>
+    </body>
+</html>
